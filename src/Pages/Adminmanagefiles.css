@@ -1,0 +1,14 @@
+.file-table {
+    perspective: 1000px; /* Enables 3D perspective */
+    cursor: pointer;
+  }
+  
+  .file-row {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  
+  .file-row:hover {
+    transform: translateZ(40px) rotateY(10deg); /* 3D hover effect */
+    box-shadow: 0 8px 20px rgba(84, 194, 228, 0.849); /* Shadow on hover */
+  }
+  
